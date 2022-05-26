@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is fetched]]>
+    </line>
+    <line>
+      <![CDATA[Verify header image url]]>
+    </line>
+    <line>
+      <![CDATA[Attempt login to page]]>
+    </line>
+    <line>
+      <![CDATA[Click on view information]]>
+    </line>
+    <line>
+      <![CDATA[Click on view details]]>
+    </line>
+    <line>
+      <![CDATA[Serach view directory]]>
+    </line>
+    <line>
+      <![CDATA[Search for qualifications]]>
+    </line>
+    <line>
+      <![CDATA[Leave status is Pending Approval(1.00)]]>
+    </line>
+    <line>
+      <![CDATA[Click on view details]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-13T12:36:08 IST" name="HRM Project Suite" finished-at="2022-05-13T12:37:15 IST" duration-ms="67080">
+    <groups>
+    </groups>
+    <test started-at="2022-05-13T12:36:08 IST" name="HRM Tests" finished-at="2022-05-13T12:37:15 IST" duration-ms="67080">
+      <class name="hrm.project.Activity1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity1@1f59a598]" started-at="2022-05-13T12:36:08 IST" name="setUp" finished-at="2022-05-13T12:36:12 IST" duration-ms="3785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:hrm.project.Activity1@1f59a598]" started-at="2022-05-13T12:36:12 IST" name="verifyTitle" finished-at="2022-05-13T12:36:12 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is fetched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity1@1f59a598]" started-at="2022-05-13T12:36:12 IST" name="tearDown" finished-at="2022-05-13T12:36:15 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity1 -->
+      <class name="hrm.project.Activity2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity2@445b295b]" started-at="2022-05-13T12:36:15 IST" name="setUp" finished-at="2022-05-13T12:36:17 IST" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getHeaderURL()[pri:0, instance:hrm.project.Activity2@445b295b]" started-at="2022-05-13T12:36:17 IST" name="getHeaderURL" finished-at="2022-05-13T12:36:17 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify header image url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getHeaderURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity2@445b295b]" started-at="2022-05-13T12:36:17 IST" name="tearDown" finished-at="2022-05-13T12:36:20 IST" duration-ms="2881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity2 -->
+      <class name="hrm.project.Activity5">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity5@757277dc]" started-at="2022-05-13T12:36:34 IST" name="setUp" finished-at="2022-05-13T12:36:37 IST" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editEmployeeDetails()[pri:0, instance:hrm.project.Activity5@757277dc]" started-at="2022-05-13T12:36:37 IST" name="editEmployeeDetails" finished-at="2022-05-13T12:36:41 IST" duration-ms="4056" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on view details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editEmployeeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity5@757277dc]" started-at="2022-05-13T12:36:41 IST" name="tearDown" finished-at="2022-05-13T12:36:41 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity5 -->
+      <class name="hrm.project.Activity6">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity6@687e99d8]" started-at="2022-05-13T12:36:41 IST" name="setUp" finished-at="2022-05-13T12:36:44 IST" duration-ms="2812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="directoryTest()[pri:0, instance:hrm.project.Activity6@687e99d8]" started-at="2022-05-13T12:36:44 IST" name="directoryTest" finished-at="2022-05-13T12:36:49 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Serach view directory]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- directoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity6@687e99d8]" started-at="2022-05-13T12:36:49 IST" name="tearDown" finished-at="2022-05-13T12:36:50 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity6 -->
+      <class name="hrm.project.Activity3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity3@49e5f737]" started-at="2022-05-13T12:36:20 IST" name="setUp" finished-at="2022-05-13T12:36:24 IST" duration-ms="3667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:hrm.project.Activity3@49e5f737]" started-at="2022-05-13T12:36:24 IST" name="login" finished-at="2022-05-13T12:36:25 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Attempt login to page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity3@49e5f737]" started-at="2022-05-13T12:36:25 IST" name="tearDown" finished-at="2022-05-13T12:36:26 IST" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity3 -->
+      <class name="hrm.project.Activity4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity4@5c671d7f]" started-at="2022-05-13T12:36:26 IST" name="setUp" finished-at="2022-05-13T12:36:29 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addEmployee()[pri:0, instance:hrm.project.Activity4@5c671d7f]" started-at="2022-05-13T12:36:29 IST" name="addEmployee" finished-at="2022-05-13T12:36:33 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on view information]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity4@5c671d7f]" started-at="2022-05-13T12:36:33 IST" name="tearDown" finished-at="2022-05-13T12:36:34 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity4 -->
+      <class name="hrm.project.Activity9">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity9@3af9c5b7]" started-at="2022-05-13T12:37:08 IST" name="setUp" finished-at="2022-05-13T12:37:10 IST" duration-ms="2782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="emergencyContactTest()[pri:0, instance:hrm.project.Activity9@3af9c5b7]" started-at="2022-05-13T12:37:10 IST" name="emergencyContactTest" finished-at="2022-05-13T12:37:15 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on view details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emergencyContactTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity9@3af9c5b7]" started-at="2022-05-13T12:37:15 IST" name="tearDown" finished-at="2022-05-13T12:37:15 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity9 -->
+      <class name="hrm.project.Activity7">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity7@e4487af]" started-at="2022-05-13T12:36:50 IST" name="setUp" finished-at="2022-05-13T12:36:53 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addQualificationTest()[pri:0, instance:hrm.project.Activity7@e4487af]" started-at="2022-05-13T12:36:53 IST" name="addQualificationTest" finished-at="2022-05-13T12:36:57 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search for qualifications]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addQualificationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity7@e4487af]" started-at="2022-05-13T12:36:57 IST" name="tearDown" finished-at="2022-05-13T12:36:58 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity7 -->
+      <class name="hrm.project.Activity8">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hrm.project.Activity8@10aa41f2]" started-at="2022-05-13T12:36:58 IST" name="setUp" finished-at="2022-05-13T12:37:01 IST" duration-ms="2751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="applyLeaveTest()[pri:0, instance:hrm.project.Activity8@10aa41f2]" started-at="2022-05-13T12:37:01 IST" name="applyLeaveTest" finished-at="2022-05-13T12:37:07 IST" duration-ms="5848" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Leave status is Pending Approval(1.00)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- applyLeaveTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hrm.project.Activity8@10aa41f2]" started-at="2022-05-13T12:37:07 IST" name="tearDown" finished-at="2022-05-13T12:37:08 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.project.Activity8 -->
+    </test> <!-- HRM Tests -->
+  </suite> <!-- HRM Project Suite -->
+</testng-results>

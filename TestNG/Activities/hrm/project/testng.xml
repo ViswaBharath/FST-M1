@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="HRM Project Suite">
+    <test name="HRM Tests">
+        <classes>
+            <class name="hrm.project.Activity1" />
+            <class name="hrm.project.Activity2" />
+            <class name="hrm.project.Activity3" />
+            <class name="hrm.project.Activity4" />
+            <class name="hrm.project.Activity5" />
+            <class name="hrm.project.Activity6" />
+            <class name="hrm.project.Activity7" />
+            <class name="hrm.project.Activity8" />
+            <class name="hrm.project.Activity9" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM Project Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HRM Tests(failed)">
+    <classes>
+      <class name="hrm.project.Activity5">
+        <methods>
+          <include name="editEmployeeDetails"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- hrm.project.Activity5 -->
+      <class name="hrm.project.Activity4">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- hrm.project.Activity4 -->
+    </classes>
+  </test> <!-- HRM Tests(failed) -->
+</suite> <!-- Failed suite [HRM Project Suite] -->
